@@ -1,0 +1,24 @@
+{
+  "latest_news": [
+    {
+      "id": "5da60dd5-8f93-4899-8d7f-9417f2b9e53a",
+      "category": "Filmes",
+      "video_url": "https://d2.mrqls.to/aaa/m1/2017/Thor.Ragnarok.2017.mp4?tok=6667576837616A5A4353524F46656F677852586A7A305A31416A48734467574634616A5A4C52424F46646F682533446B4B45767A34713778615545685639305843324B526961505962467367726B34645A6C486A354D4C6846706B6E5857436756724C7072647566626676696C52476833634C63466D7670486D25334467524730726235756557516E756F53367847303173356D3271324B335143364C6234557853486E35683039496B6D5249735A656C726D35425369694C62346735&valid=LbNcPCbyL3K_rSP42SB8Ng&t=1643519976",
+      "title": "Thor Ragnarok",
+      "created_at": "26 de outubro de 2017",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros tellus, malesuada et velit in, blandit molestie dolor...",
+      "timestamp": 1639925248000,
+      "image": "https://cdn.ome.lt/iy6g36PKlFpGI7Tau418xBtTiBE=/1200x630/smart/extras/conteudos/ricknegan_XD7dm3O.jpg"
+    },
+    {
+      "id": "97618d6a-2118-422f-81ce-4faf4d8b87a9",
+      "category": "Filmes",
+      "video_url": "https://d2.mrqls.to/aaa/m2/2019/avengers.endgame.2019.mp4?tok=75746E314266426E57634649467A5567253344633379553957444269356C43646A30567542544B63476554686B56513970542D783235533861562533446877624F5856784D7930594D5961504D35326F496374424D6531515577677A7A6F726E5276586C4C33356E36746E6B56756E644866427655585678253344416F6C2D72574F443556343774346937716D684A2D517A7A6F4B48547648463570574346657A55557558704768676250626D633043585A336F726E4D70436E4468595A4865775464&valid=xWs_QrgtNFBbci38uZTvlw&t=1643518311",
+      "title": "Vingadores End game",
+      "created_at": "26 de outubro de 2017",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros tellus, malesuada et velit in, blandit molestie dolor...",
+      "timestamp": 1639925248000,
+      "image": "https://br.web.img3.acsta.net/pictures/19/04/26/17/30/2428965.jpg"
+    }
+  ]
+}
