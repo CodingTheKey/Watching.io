@@ -17,11 +17,17 @@ export const HeaderContainer = styled.header`
       display: flex;
 
       li {
-        font-size: 1rem;
+        font-size: 1.1rem;
         cursor: pointer;
 
         margin: 0 1.25rem;
         transition: filter 0.2s;
+
+        &.active {
+          padding-bottom: 0.1rem;
+          border-bottom: 3px solid ${({ theme }) => theme.colors.red};
+          transition: ease 0.8s;
+        }
 
         :hover {
           filter: brightness(0.9);
@@ -39,23 +45,24 @@ export const HeaderContainer = styled.header`
       cursor: pointer;
     }
 
-    // eu ja vou arrumar essa poha ai é que eu estou nervoso agora
-    /* #notification {
-      width: 15px;
-      height: 15px;
-      position: absolute;
-      cursor: pointer;
+    .notification {
+      display: flex;
 
-      top: 23px;
-      right: 209px;
+      .notification-counter {
+        width: 18px;
+        height: 18px;
+        text-align: center;
+        border-radius: 99999px;
 
-      font-size: 0.563rem;
-      font-weight: medium;
-      text-align: center;
+        position: relative;
+        right: 20px;
+        bottom: 6px;
 
-      border-radius: 999px;
-      background: ${({ theme }) => theme.colors.red};
-    } */
+        background-color: ${({ theme }) => theme.colors.red};
+
+        font-size: 0.864rem;
+      }
+    }
 
     .border-user {
       display: flex;
