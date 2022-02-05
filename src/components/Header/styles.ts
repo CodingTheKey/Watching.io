@@ -25,7 +25,7 @@ export const HeaderContainer = styled.header`
         transition: filter 0.2s;
 
         &.active {
-          padding-bottom: 0.1rem;
+          padding-bottom: 0.2rem;
           border-bottom: 3px solid ${({ theme }) => theme.colors.red};
         }
 
