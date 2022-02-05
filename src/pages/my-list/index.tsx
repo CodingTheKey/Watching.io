@@ -1,7 +1,12 @@
-import { Header } from "../../components/Header";
+import Head from "next/head";
 
 export default function myList() {
   return (
-    <Header />
-  );
+    <>
+      <Head>
+        <title>Minha Lista</title>
+      </Head>
+      <h1>My List</h1>
+    </>
+  )
 }

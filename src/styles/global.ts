@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -19,6 +19,8 @@ export const GlobalStyle = createGlobalStyle`
 
   button {
     cursor: pointer;
+    background-color: transparent;
+    border: none;
   }
 
   a {
@@ -38,7 +40,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: ${({ theme }) => theme.colors.blue};
+    background-color: ${({ theme }) => theme.colors.header};
     border-radius: 5px;
   } */
 

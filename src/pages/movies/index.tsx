@@ -1,7 +1,12 @@
-import { Header } from "../../components/Header";
+import Head from "next/head";
 
 export default function movies() {
   return (
-    <Header />
-  );
+    <>
+      <Head>
+        <title>Filmes</title>
+        <meta name="description" content="Encontre seus filmes favoritos aqui!" />
+      </Head>
+    </>
+  )
 }

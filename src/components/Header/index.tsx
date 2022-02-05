@@ -37,12 +37,12 @@ export function Header() {
         <div className="header-end">
           <BiSearch fontSize={29} />
 
-          <div className="notification">
+          <button className="notification">
             <BiBell fontSize={29} />
-            <div className="notification-counter">
-              3
+            <div>
+              <span> 3 </span>
             </div>
-          </div>
+          </button>
           
           <div className="border-user">
             <Image src="/PhotoUser.png" alt="foto do usuário" width={45} height={45} />
