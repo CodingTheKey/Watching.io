@@ -19,7 +19,7 @@ export function NotFound() {
 
       <ContentNotFound>
         <h1>Ainda estamos trabalhando nessa página amigo 😔</h1>
-        <h2>Que tal assistir outra coisa?</h2>
+        <h2>Que tal assistir em outra plataforma?</h2>
 
         <h3>Recomendo:</h3>
         <ul>
